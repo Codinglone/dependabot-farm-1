@@ -5,7 +5,18 @@ config and reports HTTP status + latency for each.
 
 ## Usage
 
-    python check.py config.yml
+```bash
+python check.py config.yml
+```
+
+Sample `config.yml` is included. Output:
+
+```
+OK    https://example.com  200  120ms
+FAIL  https://down.example  5000ms  ...
+```
+
+Exit code is `1` if any URL failed, `0` otherwise.
 
 ## Config format
 
