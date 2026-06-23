@@ -4,5 +4,5 @@ certifi==2026.6.17
 idna==2.7
 chardet==7.4.3
 PyYAML==5.1
-six==1.11.0
+six==1.17.0
 python-dateutil==2.9.0.post0
